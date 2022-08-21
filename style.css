@@ -12,12 +12,11 @@ html {
 
 main {
     background-color: white;
-    margin: 20px;
+    margin: 20px auto 0 auto;
     border-radius: 5px;
     border: 3px solid #D7AE00;
-    /* max-width: 1100px;
-    margin: auto;
-    width: 90%; */
+    max-width: 1100px;
+    width: 90%;
 }
 
 .header {
@@ -74,7 +73,7 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 li img {
@@ -106,6 +105,7 @@ li {
 }
 
 .footer a {
-    text-decoration: none;a
+    text-decoration: none;
     color: #D7AE00;
+    font-weight: 700;
 }
